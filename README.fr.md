@@ -26,7 +26,20 @@ Lorsqu'un agent IA commence à coder directement à partir d'une idée vague, il
 
 ## Installation Globale (En 1 Minute)
 
-### Option A — Plugin Complet + Hook Smart Gate (Recommandé pour Antigravity & Multi-IDE)
+### ✨ Option 1 — Installation Automatique par Prompt IA (Copier-Coller dans votre IA)
+
+Vous ne voulez pas taper de commandes dans le terminal ? **Copiez-collez simplement ce prompt dans votre assistant IA** (Antigravity, Cursor, Claude Code ou Windsurf) : il fera toute l'installation et vous expliquera tout !
+
+```text
+Installe globalement le plugin et les skills SpecForge depuis https://github.com/Ismael-sang98/spec-forge-skill.git sur ma machine :
+1. Clone https://github.com/Ismael-sang98/spec-forge-skill.git dans un dossier temporaire.
+2. Détecte mon système d'exploitation et exécute "./install.sh" (macOS/Linux) ou "powershell -ExecutionPolicy Bypass -File .\install.ps1" (Windows) afin d'installer globalement le plugin complet, le verrou Smart Gate et les 4 skills (spec-init, spec-slice, spec-evolve, spec-audit).
+3. Vérifie que les fichiers sont bien installés, supprime le dossier temporaire cloné, puis explique-moi clairement en français comment fonctionne SpecForge, comment agit le verrou "Zéro Code avant les Docs", quand utiliser chacun des 4 skills, et rappelle-moi de redémarrer mon IDE une fois.
+```
+
+---
+
+### 🛠️ Option 2 — Installation Manuelle en Terminal (Plugin Complet + Hook Smart Gate)
 
 **macOS & Linux :**
 ```bash
@@ -49,7 +62,7 @@ agy plugin install ./spec-forge-skill
 
 > **Important :** Redémarrez votre IDE IA une fois l'installation terminée pour activer le plugin global, le hook `PreToolUse` et les 4 skills.
 
-### Option B — Via `npx skills` (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
+### 🌐 Option 3 — Via `npx skills` (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
 
 ```bash
 npx skills add Ismael-sang98/spec-forge-skill -g

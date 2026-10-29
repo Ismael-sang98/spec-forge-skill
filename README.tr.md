@@ -26,7 +26,20 @@ Yapay zekâ kodlama ajanları belirsiz bir istemle (prompt) doğrudan kod yazmay
 
 ## Global Kurulum (1 Dakikada)
 
-### Seçenek A — Tam Eklenti + Akıllı Kilit Hook Kurulumu (Antigravity ve Çoklu IDE İçin Önerilen)
+### ✨ Seçenek 1 — Tek Tıkla Yapay Zekâ Promptu ile Otomatik Kurulum (Kopyala & Yapıştır)
+
+Terminal komutlarıyla uğraşmak istemiyor musunuz? **Aşağıdaki istemi (prompt) kopyalayıp kullandığınız yapay zekâ asistanına** (Antigravity, Cursor, Claude Code veya Windsurf) **yapıştırın**; kurulumu sizin yerinize yapsın ve sistemi anlatsın:
+
+```text
+https://github.com/Ismael-sang98/spec-forge-skill.git adresindeki SpecForge eklentisini ve yeteneklerini (skills) bilgisayarıma global olarak kur:
+1. https://github.com/Ismael-sang98/spec-forge-skill.git deposunu geçici bir klasöre klonla.
+2. İşletim sistemimi algıla ve macOS/Linux ise "./install.sh", Windows ise "powershell -ExecutionPolicy Bypass -File .\install.ps1" komutunu çalıştırarak tam eklentiyi, Smart Gate kilidini ve 4 skill'i (spec-init, spec-slice, spec-evolve, spec-audit) global olarak yükle.
+3. Dosyaların başarıyla kurulduğunu doğrula, geçici klon klasörünü temizle ve ardından bana Türkçe olarak SpecForge'un nasıl çalıştığını, "Spesifikasyon Olmadan Kod Yok" kilidinin projelerimi nasıl koruduğunu, 4 skill'in ne zaman kullanıldığını açıkla ve IDE'mi bir kez yeniden başlatmamı hatırlat.
+```
+
+---
+
+### 🛠️ Seçenek 2 — Terminal ile Manuel Kurulum (Tam Eklenti + Akıllı Kilit Hook)
 
 **macOS ve Linux:**
 ```bash
@@ -49,7 +62,7 @@ agy plugin install ./spec-forge-skill
 
 > **Not:** Kurulumdan sonra global eklentinin, `PreToolUse` kilidinin ve 4 yeteneğin (skill) yüklenmesi için yapay zekâ IDE'nizi bir kez yeniden başlatın.
 
-### Seçenek B — Evrensel `npx skills` CLI (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
+### 🌐 Seçenek 3 — Evrensel `npx skills` CLI (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
 
 ```bash
 npx skills add Ismael-sang98/spec-forge-skill -g

@@ -26,7 +26,20 @@ AI coding agents drift, invent endpoints, skip edge cases, and create 1,000-line
 
 ## Global Installation (1 Minute)
 
-### Option A — Full Plugin + Smart Gate Hook (Recommended for Antigravity + Multi-IDE)
+### ✨ Option 1 — Zero-Terminal AI Prompt (Copy & Paste into Your AI)
+
+Don't want to run terminal commands manually? Just **copy-paste this prompt into your AI coding assistant** (Antigravity, Cursor, Claude Code, or Windsurf) and let it install everything for you:
+
+```text
+Install the SpecForge global plugin & skills from https://github.com/Ismael-sang98/spec-forge-skill.git on my machine:
+1. Clone https://github.com/Ismael-sang98/spec-forge-skill.git into a temporary directory.
+2. Detect my OS and run "./install.sh" (macOS/Linux) or "powershell -ExecutionPolicy Bypass -File .\install.ps1" (Windows) so the global plugin, Smart Gate hook, and 4 skills (spec-init, spec-slice, spec-evolve, spec-audit) are installed for my AI IDE(s).
+3. Verify the installed files, remove the temporary clone folder, and then explain clearly to me how SpecForge works, how the "Zero Code Before Specs" Smart Gate protects my projects, when to use each of the 4 skills, and remind me to restart my IDE once.
+```
+
+---
+
+### 🛠️ Option 2 — Manual CLI Installation (Full Plugin + Smart Gate Hook)
 
 **macOS & Linux:**
 ```bash
@@ -49,7 +62,7 @@ agy plugin install ./spec-forge-skill
 
 > **Note:** Restart your AI IDE once after installing so the global plugin, `PreToolUse` Smart Gate hook, and 4 skills are loaded.
 
-### Option B — Universal Skills CLI (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
+### 🌐 Option 3 — Universal Skills CLI (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
 
 ```bash
 npx skills add Ismael-sang98/spec-forge-skill -g
