@@ -30,21 +30,21 @@ AI coding agents drift, invent endpoints, skip edge cases, and create 1,000-line
 
 **macOS & Linux:**
 ```bash
-git clone https://github.com/<your-username>/spec-forge.git
-cd spec-forge
+git clone https://github.com/Ismael-sang98/spec-forge-skill.git
+cd spec-forge-skill
 chmod +x install.sh && ./install.sh
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com/<your-username>/spec-forge.git
-cd spec-forge
+git clone https://github.com/Ismael-sang98/spec-forge-skill.git
+cd spec-forge-skill
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
 **Or directly with the Antigravity CLI:**
 ```bash
-agy plugin install ./spec-forge
+agy plugin install ./spec-forge-skill
 ```
 
 > **Note:** Restart your AI IDE once after installing so the global plugin, `PreToolUse` Smart Gate hook, and 4 skills are loaded.
@@ -52,7 +52,7 @@ agy plugin install ./spec-forge
 ### Option B — Universal Skills CLI (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
 
 ```bash
-npx skills add <your-username>/spec-forge -g
+npx skills add Ismael-sang98/spec-forge-skill -g
 ```
 
 ---

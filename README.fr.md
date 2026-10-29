@@ -30,21 +30,21 @@ Lorsqu'un agent IA commence à coder directement à partir d'une idée vague, il
 
 **macOS & Linux :**
 ```bash
-git clone https://github.com/<votre-username>/spec-forge.git
-cd spec-forge
+git clone https://github.com/Ismael-sang98/spec-forge-skill.git
+cd spec-forge-skill
 chmod +x install.sh && ./install.sh
 ```
 
 **Windows (PowerShell) :**
 ```powershell
-git clone https://github.com/<votre-username>/spec-forge.git
-cd spec-forge
+git clone https://github.com/Ismael-sang98/spec-forge-skill.git
+cd spec-forge-skill
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
 **Ou directement avec le CLI Antigravity :**
 ```bash
-agy plugin install ./spec-forge
+agy plugin install ./spec-forge-skill
 ```
 
 > **Important :** Redémarrez votre IDE IA une fois l'installation terminée pour activer le plugin global, le hook `PreToolUse` et les 4 skills.
@@ -52,7 +52,7 @@ agy plugin install ./spec-forge
 ### Option B — Via `npx skills` (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
 
 ```bash
-npx skills add <votre-username>/spec-forge -g
+npx skills add Ismael-sang98/spec-forge-skill -g
 ```
 
 ---

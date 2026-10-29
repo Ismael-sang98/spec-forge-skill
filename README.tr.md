@@ -30,21 +30,21 @@ Yapay zekâ kodlama ajanları belirsiz bir istemle (prompt) doğrudan kod yazmay
 
 **macOS ve Linux:**
 ```bash
-git clone https://github.com/<kullanici-adiniz>/spec-forge.git
-cd spec-forge
+git clone https://github.com/Ismael-sang98/spec-forge-skill.git
+cd spec-forge-skill
 chmod +x install.sh && ./install.sh
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com/<kullanici-adiniz>/spec-forge.git
-cd spec-forge
+git clone https://github.com/Ismael-sang98/spec-forge-skill.git
+cd spec-forge-skill
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
 **Veya doğrudan Antigravity CLI ile:**
 ```bash
-agy plugin install ./spec-forge
+agy plugin install ./spec-forge-skill
 ```
 
 > **Not:** Kurulumdan sonra global eklentinin, `PreToolUse` kilidinin ve 4 yeteneğin (skill) yüklenmesi için yapay zekâ IDE'nizi bir kez yeniden başlatın.
@@ -52,7 +52,7 @@ agy plugin install ./spec-forge
 ### Seçenek B — Evrensel `npx skills` CLI (Cursor, Claude Code, Windsurf, Copilot, Antigravity)
 
 ```bash
-npx skills add <kullanici-adiniz>/spec-forge -g
+npx skills add Ismael-sang98/spec-forge-skill -g
 ```
 
 ---
