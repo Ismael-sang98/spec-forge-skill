@@ -1,12 +1,12 @@
 ---
 name: spec-init
 description: >-
-  Initializes Spec-Driven AI Development on a new or existing project before writing any application code.
-  Conducts a multimodal discovery and 4-phase CTO-guided interview (ingesting raw ideas, local PDFs/mockups,
-  and external URLs), generates the complete specification suite in docs/ plus root governance files
-  (AGENTS.md, .cursorrules, CLAUDE.md, .env.example, verify script), and unlocks coding only when 100% validated.
-  Use when starting a new project, resuming an in-progress specification (docs/.spec-state.json), or
-  retro-specifying a legacy codebase.
+  SpecForge (spec-forge) main initialization skill: initializes Spec-Driven AI Development on a new or
+  existing project before writing any application code. Trigger whenever the user mentions "spec-forge",
+  "spec-forge skill", "spec-init", or wants to start/specify a project. Conducts a multimodal discovery
+  and 4-phase CTO-guided interview (ingesting raw ideas, local PDFs/mockups, and external URLs), generates
+  the complete specification suite in docs/ plus root governance files (AGENTS.md, .cursorrules, CLAUDE.md,
+  .env.example, verify script), and unlocks coding only when 100% validated.
 ---
 
 # SpecForge — `spec-init` (Specification Architect & Gate Unlocker)

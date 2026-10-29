@@ -1,10 +1,10 @@
 ---
 name: spec-evolve
 description: >-
-  Manages mid-project feature additions, requirement changes, schema updates, or architectural pivots
-  without breaking Spec-Driven integrity. Interviews the user on impacts, records an Architecture Decision
-  Record (docs/adr/NNNN-*.md), updates affected docs/ files and docs/07_IMPLEMENTATION_PLAN.md BEFORE any
-  code is modified. Use whenever the user wants to add a new feature or change existing behavior mid-project.
+  SpecForge (spec-forge) evolution & ADR skill: manages mid-project feature additions, requirement changes,
+  schema updates, or architectural pivots without breaking Spec-Driven integrity. Interviews the user on
+  impacts, records an Architecture Decision Record (docs/adr/NNNN-*.md), and updates affected docs/ files
+  and docs/07_IMPLEMENTATION_PLAN.md BEFORE any code is modified.
 ---
 
 # SpecForge — `spec-evolve` (Spec-First Evolution & ADR Gatekeeper)

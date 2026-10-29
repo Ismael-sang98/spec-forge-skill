@@ -1,10 +1,9 @@
 ---
 name: spec-audit
 description: >-
-  Audits a project for Spec-to-Code alignment, coding-rule compliance (zero any/dynamic, file size caps,
-  glossary naming, RBAC guards, ACID transactions, test coverage), and executes the pre-production security
-  hardening checklist in docs/PROD_CONFIG.md. Use when reviewing quality, checking drift between docs/ and
-  code, or preparing a project for production deployment.
+  SpecForge (spec-forge) quality & security audit skill: audits a project for Spec-to-Code alignment,
+  coding-rule compliance (zero any/dynamic, file size caps, glossary naming, RBAC guards, ACID transactions,
+  test coverage), and executes the pre-production security hardening checklist in docs/PROD_CONFIG.md.
 ---
 
 # SpecForge — `spec-audit` (Spec-Code Drift & Production Hardening Auditor)

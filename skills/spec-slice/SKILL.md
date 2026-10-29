@@ -1,10 +1,10 @@
 ---
 name: spec-slice
 description: >-
-  Executes the next unchecked vertical slice from docs/07_IMPLEMENTATION_PLAN.md following the strict
-  SpecForge 6-step protocol (Specs review -> Validation -> Database -> Service/ACID -> Unit Tests ->
-  API/UI -> verify command -> checkbox update -> structured report). Use when implementing features,
-  continuing project development, or when the user asks to build the next slice/task.
+  SpecForge (spec-forge) vertical slice execution skill: executes the next unchecked vertical slice from
+  docs/07_IMPLEMENTATION_PLAN.md following the strict SpecForge 6-step protocol (Specs review -> Validation ->
+  Database -> Service/ACID -> Unit Tests -> API/UI -> verify command -> checkbox update -> structured report).
+  Use when implementing features, continuing project development, or building the next slice/task.
 ---
 
 # SpecForge — `spec-slice` (Vertical Slice Executor)
