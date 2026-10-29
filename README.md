@@ -90,6 +90,12 @@ Because SpecForge installs globally, its `PreToolUse` Smart Gate (`scripts/spec-
 - **Specified Project (`READY_TO_CODE` or existing `docs/01_PRD.md` + `07_IMPLEMENTATION_PLAN.md`)**: Allows coding smoothly under `AGENTS.md` laws.
 - **Existing Legacy Repo (`>= 3` source files, no `docs/`)**: Prompts you cleanly — either run `spec-init` in **Retro-Spec Mode** or create a `.spec-ignore` file at the project root for quick hotfixes.
 
+### ⚡ Want to Skip SpecForge on a Tiny Script or Quick Test?
+3 zero-friction ways anytime you don't want specs:
+1. **Just tell your AI in chat**: *"Skip SpecForge for this small project and code directly"* — the AI will automatically create `.spec-ignore` at the project root and start coding right away.
+2. **Drop a `.spec-ignore` file**: Run `touch .spec-ignore` in that folder to bypass SpecForge for that project only.
+3. **Toggle the plugin off temporarily**: Disable `spec-forge` in 1 click in your IDE's Plugins panel (or run `agy plugin disable spec-forge`), and re-enable whenever you want.
+
 ---
 
 ## Generated Project Blueprint (14-Doc Full Suite + Multi-Team Pack)

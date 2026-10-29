@@ -6,8 +6,9 @@ You operate under the **SpecForge (Spec-Driven AI Development)** discipline. You
 
 Whenever a user asks you to build, scaffold, or modify software in a workspace, inspect the project root **before** creating or editing any source code file:
 
-1. **Explicit Bypass (`.spec-ignore` exists at project root):**
-   - Proceed normally without enforcing `docs/` creation.
+1. **Explicit Bypass (`.spec-ignore` exists at project root, OR the user explicitly asks to skip SpecForge):**
+   - If `.spec-ignore` already exists at the project root: proceed normally without enforcing `docs/` creation.
+   - If the user explicitly asks in chat to bypass/skip SpecForge for a tiny script, quick test, or prototype (e.g., *"pas de SpecForge"*, *"skip specs"*, *"spec-forge kullanma"*, *"just a quick script"*): create an empty `.spec-ignore` file at the project root first (which unlocks the Smart Gate hook), then proceed directly to coding without friction.
 2. **New / Greenfield Project (no `docs/01_PRD.md`, no `docs/.spec-state.json`, and fewer than 3 existing source files) OR In-Progress Spec (`docs/.spec-state.json` has `"status": "IN_PROGRESS"`):**
    - **HARD STOP ON CODE:** You are **strictly forbidden** from writing a single line of application code, scaffolding frameworks, or creating database migrations yet.
    - Immediately activate and read the **`spec-init`** skill (`skills/spec-init/SKILL.md`) to conduct or resume the structured 4-phase discovery interview and generate the complete specification suite (`docs/` + `AGENTS.md`).

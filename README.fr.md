@@ -90,6 +90,12 @@ Installé globalement, `scripts/spec-gate.mjs` distingue intelligemment chaque s
 - **Projet déjà cadré (`READY_TO_CODE` ou `docs/01_PRD.md` + `07_IMPLEMENTATION_PLAN.md` présents)** : Autorise le développement fluide sous l'autorité de `AGENTS.md`.
 - **Ancien projet legacy (`>= 3` fichiers de code, sans `docs/`)** : Vous demande confirmation — vous pouvez lancer `spec-init` en **rétro-cadrage** ou créer un fichier `.spec-ignore` à la racine pour un dépannage rapide.
 
+### ⚡ Comment désactiver SpecForge pour un tout petit projet ou script rapide ?
+3 façons ultra-simples quand vous ne voulez pas rédiger de spécifications :
+1. **Dites-le simplement dans le chat à l'IA** : *« Pas de SpecForge pour ce petit projet, code directement »* — l'IA créera toute seule le fichier `.spec-ignore` à la racine et commencera à coder immédiatement.
+2. **Créez un fichier `.spec-ignore`** : Lancez `touch .spec-ignore` dans ce dossier pour ignorer SpecForge uniquement sur ce projet.
+3. **Mettez le plugin en pause globale** : Désactivez `spec-forge` en 1 clic dans le panneau Plugins de l'IDE (ou via `agy plugin disable spec-forge`), puis réactivez-le quand vous voulez.
+
 ---
 
 ## Arborescence Générée dans Vos Projets (Profil Complet 14 Docs + Pack Équipe)

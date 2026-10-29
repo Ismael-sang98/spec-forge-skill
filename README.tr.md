@@ -90,6 +90,12 @@ SpecForge bilgisayarınıza global kurulduğunda `scripts/spec-gate.mjs` açtı�
 - **Spesifikasyonu Tamamlanmış Proje (`READY_TO_CODE` veya `docs/01_PRD.md` + `07_IMPLEMENTATION_PLAN.md` mevcut)**: `AGENTS.md` kuralları altında akıcı geliştirmeye izin verir.
 - **Mevcut Eski (Legacy) Kod Tabanı (`>= 3` kod dosyası var, `docs/` yok)**: Sizi zorla kilitlemez; onay sorarak ister **`spec-init` (Geriye Dönük Dokümantasyon)** başlatmanıza ister kök dizine `.spec-ignore` ekleyerek hızlı düzeltme yapmanıza olanak tanır.
 
+### ⚡ Küçük Bir Script veya Hızlı Ödev İçin SpecForge Nasıl Devre Dışı Bırakılır?
+Dokümantasyonla uğraşmak istemediğiniz küçük işlerde 3 pratik yöntem:
+1. **Doğrudan sohbetten yapay zekâya söyleyin**: *"Bu küçük projede SpecForge kullanma, doğrudan kodu yaz"* — yapay zekâ otomatik olarak kök dizine `.spec-ignore` dosyasını oluşturur ve hemen kodlamaya başlar.
+2. **`.spec-ignore` dosyası ekleyin**: Klasörde `touch .spec-ignore` çalıştırarak SpecForge'u yalnızca o klasör için kapatın.
+3. **Eklentiyi geçici olarak kapatın**: IDE'nin Eklentiler (Plugins) panelinden tek tıkla (veya `agy plugin disable spec-forge` ile) kapatıp istediğiniz an tekrar açın.
+
 ---
 
 ## Üretilen Proje Mimarisi (14 Dokümanlık Tam Paket + Ekip Koruma Paketi)
