@@ -1,0 +1,5 @@
+{
+  "name": "spec-forge",
+  "version": "1.0.0",
+  "description": "Enforces Spec-Driven AI Development across Web, Mobile, Desktop, and Backend projects: zero code before complete specs, 4-phase multimodal interviews, vertical-slice execution, evolution ADRs, and production hardening audits."
+}

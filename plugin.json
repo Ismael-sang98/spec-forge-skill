@@ -1,0 +1,12 @@
+{
+  "name": "spec-forge",
+  "displayName": "SpecForge — Spec-Driven AI Development",
+  "version": "1.0.0",
+  "description": "Enforces Spec-Driven AI Development across Web, Mobile, Desktop, and Backend projects: zero code before complete architecture & business specs, 4-phase multimodal interviews, vertical-slice execution, evolution ADRs, and production hardening audits.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Use spec-init to interview me and create all project specification docs before writing any code",
+    "Use spec-slice to execute the next unchecked vertical slice in docs/07_IMPLEMENTATION_PLAN.md",
+    "Use spec-audit to audit codebase compliance with docs/ and verify docs/PROD_CONFIG.md"
+  ]
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="sf-bg" x1="28" y1="28" x2="228" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+    <linearGradient id="sf-accent" x1="64" y1="56" x2="196" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <linearGradient id="sf-shield" x1="136" y1="128" x2="204" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- 10% safe outer margin: 26..230 -->
+  <rect x="26" y="26" width="204" height="204" rx="46" fill="url(#sf-bg)" stroke="#38BDF8" stroke-width="5" />
+
+  <!-- Blueprint Document Frame -->
+  <rect x="64" y="56" width="108" height="136" rx="14" fill="#0B132B" stroke="url(#sf-accent)" stroke-width="6" />
+
+  <!-- Spec Checklist Lines -->
+  <rect x="82" y="80" width="14" height="14" rx="4" fill="#38BDF8" />
+  <rect x="104" y="83" width="48" height="8" rx="4" fill="#E2E8F0" />
+
+  <rect x="82" y="108" width="14" height="14" rx="4" fill="#38BDF8" />
+  <rect x="104" y="111" width="40" height="8" rx="4" fill="#CBD5E1" />
+
+  <rect x="82" y="136" width="14" height="14" rx="4" fill="#818CF8" />
+  <rect x="104" y="139" width="32" height="8" rx="4" fill="#94A3B8" />
+
+  <!-- Gatekeeper Verification Shield -->
+  <path d="M170 124 L204 138 V168 C204 188 189 203 170 210 C151 203 136 188 136 168 V138 L170 124 Z" fill="url(#sf-shield)" stroke="#ECFDF5" stroke-width="5" stroke-linejoin="round" />
+  <path d="M156 167 L166 177 L185 156" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
